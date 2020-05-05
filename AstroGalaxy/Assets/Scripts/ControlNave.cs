@@ -23,5 +23,15 @@ public class ControlNave : MonoBehaviour
             gameObject.transform.Translate(20f * Time.deltaTime, 0, 0);
         }
 
+        if (Input.GetKey("up"))
+        {
+            gameObject.transform.Translate(0, 0, 20f * Time.deltaTime);
+        }
+
+        if (Input.GetKey("down"))
+        {
+            gameObject.transform.Translate(0, 0, -20f * Time.deltaTime);
+        }
+
     }
 }
