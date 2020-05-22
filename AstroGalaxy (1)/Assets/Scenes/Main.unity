@@ -883,6 +883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dcb1a89dff98fe4992f1fdf0e037db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidadNave: 20
+  inclinacion: 1
   disparo: {fileID: 2545612165710984907, guid: a84be09820c6f184d8cb4e211d78eb65, type: 3}
   posdisparo: {fileID: 1322799644}
   tiempodisparo: 0
@@ -912,9 +914,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!4 &1945470691 stripped
 Transform:
